@@ -1,0 +1,40 @@
+
+.services_section_bg{
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+  url('../public/images/services_bg.png');
+    margin: 100px 0;
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .services{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Chooseus_section_bg{
+    margin: 100px 0;
+  }
+
+  .Chooseus{
+    margin-top: 100px;
+  }
+
+  .section_headings{
+    padding: 50px 5px 50px 5px;
+  }
+
+.process_section_bg, .testimonial_bg{
+  padding: 100px 0;
+}
+
+.Portfoliopage{
+  display:grid;
+  gap: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 0;
+}
