@@ -36,6 +36,7 @@ export default Herosection;
 
 
 const MainHeader = styled.section`
+
 .header {
     display: flex;
     gap: 40px;
@@ -100,6 +101,10 @@ const MainHeader = styled.section`
     .header {
       flex-wrap: wrap;
       justify-content: center;
+    }
+
+    .header_content{
+      width: 100%;
     }
 
   }

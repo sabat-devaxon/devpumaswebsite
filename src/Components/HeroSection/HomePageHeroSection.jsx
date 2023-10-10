@@ -42,6 +42,10 @@ export default HomePageHeroSection;
 
 
 const HomeHeader = styled.section`
+.header_bg{
+  background: ${({ theme }) => theme.colors.heading};
+  color: white;
+}
 .header {
     display: flex;
     gap: 40px;
@@ -64,6 +68,7 @@ const HomeHeader = styled.section`
     font-size: 1em;
     font-weight: 700;
     line-height: 1.2em;
+    color: ${({ theme }) => theme.colors.white};
   }
   
   .header_content p {
@@ -71,6 +76,7 @@ const HomeHeader = styled.section`
     font-weight: 400;
     line-height: 1.4em;
     padding: 1em 0;
+    color: ${({ theme }) => theme.colors.white};
   }
   
   .header_content::after{
@@ -120,8 +126,8 @@ const HomeHeader = styled.section`
 
 .header_img1 img {
   position: absolute;
-  top: 12px;
-  left: -77px;
+  top: -40px;
+  left: -9px;
   animation: 6s imagerotate1;
 }
 
@@ -150,8 +156,8 @@ const HomeHeader = styled.section`
 
 .header_img2 img {
   position: absolute;
-  top: 250px;
-  left: -25px;
+  top: 201px;
+  left: 21px;
   animation: 6s imagerotate2 ease-in-out;
   animation-delay: 5s;
 }
@@ -178,8 +184,8 @@ const HomeHeader = styled.section`
 
 .header_img4 img {
   position: absolute;
-  top: -32px;
-  left: 248px;
+  top: -97px;
+  left: 295px;
   animation: 6s imagerotate4 ease-in-out;
   animation-delay: 5s;
 

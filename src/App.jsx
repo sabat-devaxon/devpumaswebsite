@@ -6,7 +6,7 @@ import { About } from './About'
 import { Services } from './Services'
 import { Contact } from './Contact'
 import {BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from './Components/Header/Header'
+import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer'
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from './GlobalStyle'

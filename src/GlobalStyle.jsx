@@ -83,7 +83,7 @@ img{
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0px 20px;
 }
@@ -136,3 +136,7 @@ img{
   
 
 `;
+
+
+
+

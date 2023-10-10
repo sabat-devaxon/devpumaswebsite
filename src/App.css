@@ -3,7 +3,6 @@
   background-image:
   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
   url('../public/images/services_bg.png');
-    margin: 100px 0;
     padding: 70px 0;
     background-position: center;
     background-size: cover;
@@ -38,3 +37,6 @@
   justify-content: center;
   padding: 40px 0;
 }
+
+
+

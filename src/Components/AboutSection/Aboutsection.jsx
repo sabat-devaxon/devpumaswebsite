@@ -55,8 +55,10 @@ const AboutSection = styled.section`
 
 .about {
     display: flex;
-    gap: 40px;
+    gap: 15px;
     padding: 100px 0 100px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .about_content {
@@ -69,18 +71,6 @@ const AboutSection = styled.section`
     font-size: 0.6em;
     font-weight: 500;
     line-height: 1.2em;
-    margin-left: 70px;
-}
-
-.about_content h4::before {
-    content: "";
-    width: 60px;
-    height: 5px;
-    background-color: var(--color-text-2);
-    position: absolute;
-    top: 16px;
-    left: -4px;
-
 }
 
 .about_content h2 {

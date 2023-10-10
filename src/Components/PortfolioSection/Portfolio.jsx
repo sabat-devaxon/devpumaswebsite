@@ -588,8 +588,8 @@ figure img {
 }
 
 .imageRoll>figcaption a {
-  background-color: var(--color-btn);
-  color: var(--color-primary);
+  background-color: ${({ theme }) => theme.colors.btn};
+  color: ${({ theme }) => theme.colors.white};
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
@@ -597,117 +597,4 @@ figure img {
   border-radius: 7px;
   cursor: pointer;
 }
-
-/* -----------------------------------------our portfolio End--------------------------------------- */
-
-/* -----------------------------------------testimonial--------------------------------------- */
-.testimonial {
-  margin: 100px 0;
-}
-
-.testimonial_bg {
-  padding-top: 150px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 600px !important;
-  height: 300px !important;
-}
-
-.testimonial_bg .container>h4 {
-  font-size: 26px;
-  font-weight: 500;
-  line-height: 0.6em;
-  text-align: center;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.swiper-wrapper {
-  padding-top: 30px;
-}
-
-/* .testimonial_bg .container>h4::before {
-  content: "";
-  width: 60px;
-  height: 5px;
-  background-color: var(--color-text-2);
-  position: absolute;
-  top: 6px;
-  left: 400px;
-}
-
-.testimonial_bg .container>h4::after {
-  content: "";
-  width: 60px;
-  height: 5px;
-  background-color: var(--color-text-2);
-  position: absolute;
-  top: 6px;
-  right: 400px;
-} */
-
-.testimonial_bg h2 {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.1em;
-  text-align: center;
-}
-
-
-.mySwiper {
-  height: 420px;
-  padding-top: 40px;
-}
-
-.testimonial_img-name {
-  display: flex;
-}
-
-.testimonial_img-name img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-}
-
-.testimonial_slide {
-  width: 600px !important;
-  height: 300px !important;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
-    rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
-  padding: 0px 20px;
-  padding-top: 30px;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--color-text-1) !important;
-}
-
-.testimonial_name {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 21px;
-}
-
-.testimonial_name>h4 {
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--color-text-1);
-  line-height: 25px;
-}
-
-.testimonial_content>p {
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--color-text-1);
-  padding-top: 10px;
-}
-
-.testimonial_star i {
-  color: var(--color-text-2);
-}
-
 `;
